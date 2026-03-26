@@ -13,6 +13,7 @@ driver.get(URL)
 # Find all <img> tags
 images = driver.find_elements(By.TAG_NAME, "img")
 
+
 # Check for missing or empty alt attributes
 missing_alt = []
 for img in images:
